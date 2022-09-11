@@ -32,6 +32,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Ângela Miranda      | [UC-006]- Interação enter sistemas                | Acesso a sites de descontos e promoçoes |
 |Marco Nascimento    | [UC-007]- Tabela de controle de vencimentos       | Maior controle de organização de cupons |
 |                    |                                                   |                                         |
+
+ Tabela 01: Historia de Usuario (Fonte Propria)
 </ol>
 
 ## Modelagem do Processo de Negócio 
@@ -54,6 +56,8 @@ Uma possível solução para o problema relato acima é a criação de uma aplic
 Representação do processo de login dos usuários.
 
 ![Processo 1](img/bpmn-login.png)
+ 
+ Figura-02: Processo Login (Fonte: Propria)
 </ol>
  
 ### Processo 2 – CADASTRO CUPOM
@@ -62,7 +66,9 @@ Representação do processo de login dos usuários.
  Representação do processo de cadastro de cupons.
 
 ![Processo 2](img/bpmn-cdCupom.png)
-</ol>
+
+  Figura-03: Processo Cadastro Cupons (Fonte: Propria)
+ </ol>
  </ol>
 </ol>
 
@@ -79,6 +85,8 @@ Principais indicadores de desempenho e algumas metas para o processo. Atenção:
 |Contagem de cadastro por data|	Avaliar quantidades de cupons cadastrados pelo usuários por data |	 Medir as datas com maiores adesões ao aplicativo | Contagem por data de cadastros de usuários e desconteo | Tabela de cadastros  | Processos Internos  |
 |Contratação de Cupons|	Avaliar quantidades de cupons e tipos de serviços|	 Medir a eficiência do aplicativo | Percentual de cupons descontados | Tabela de feedback usuário  | Processos Internos  |
 
+ Tabela 02: Indicadores de Desepeho (Fonte Propria)
+ 
  Obs.: todas as informações para gerar os indicadores estão no diagrama de classe apresentado posteriormente. 
 
 </ol>
@@ -101,6 +109,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
  |RF-007| Permitir exclusão de cupons                     | MÉDIA |
  |RF-008| Emitir realatrio de cupons cadastrados no mês   | MÉDIA |
  |RF-009| Permitir definir se o cupom foi usado ou não    | BAIXA |
+ 
+ Tabela 3: Requisitos Funcionais (Fonte Propria)
+ 
  </ol>
  
 ### Requisitos não Funcionais
@@ -115,6 +126,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
  |RNF-005| O sistema será construido atraves da arquiterura MVC |  BAIXA |
  |RNF-006| O Sistema deverá ser capaz de apresentar boa usabilidade |  BAIXA |
  |RNF-007| Será utilizado ferramentoas como visual code e React native para ciração do sistema|  BAIXA |
+ 
+ Tabela 04: Requisitos Não Funcionais (Fonte Propria)
+
 </ol>
  
 ## Restrições
@@ -130,20 +144,22 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |04	| Interação com o Fornecedor|
 |06	| Deverá ser gerenciável|
 |07	| Deverá apresentar atualizações em tempo real |
+
+Tabela 05: Restriçoes do Projeto (Fonte Propria)
 </ol>
-
+ 
+ 
 ## Diagrama de Casos de Uso
-
+<ol>
+ 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 ![Diagrama de Casos de Uso](img/DCU.png)
+ 
+Figura-03: Diagrama de Caso de Uso (Fonte: Propria)
+ 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+</ol>
 
 # Matriz de Rastreabilidade
 <ol>
@@ -163,33 +179,46 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
  |RF-008          |       |       |       |       |       |       |   X   |
  |RF-009          |       |       |       |   X   |       |       |       |
  
+ Tabela 06: Matriz de Rastriabilidade (Fonte Propria) 
+ 
  </ol>
 
+# Gerenciamento de Projeto
+<ol>
+
+ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
 </ol>
 
-# Gerenciamento de Projeto
-
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
-
 ## Gerenciamento de Tempo
-
+<ol>
+ 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/definicao_projeto.jpeg)
+Figura-04: Diagrama de Rede (Fonte: Propria)
 
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
 ![Gráfico de Gantt](img/tarefas_projeto.jpeg)
+Figura-05: Tarefas do Projeto (Fonte: Propria)
+</ol>
 
 ## Gerenciamento de Equipe
-
+<ol>
+ 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
 ![Simple Project Timeline](img/crinograma_projeto.jpeg)
+Figura-06: Cronograma do Projeto (Fonte: Propria)
+</ol>
 
 ## Gestão de Orçamento
-
+<ol>
+ 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
 ![Orçamento](img/orcamento.png)
+
+Figura-07: Orçamento do Projeto (Fonte: Propria)
+</ol>
 </ol>
