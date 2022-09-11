@@ -6,4 +6,7 @@
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 ![Template padrão](https://user-images.githubusercontent.com/82729897/188767927-bff509dd-654c-49c7-8744-506a9666c861.png)
+  
+  Figura 16: Template Padrão (Fonte Propria)
+  
   </ol>
