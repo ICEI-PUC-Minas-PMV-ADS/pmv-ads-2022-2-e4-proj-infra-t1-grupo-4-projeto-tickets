@@ -7,34 +7,42 @@
 A IBM definiu como arquitetura de um projeto, o conjunto de decisões significativas sobre a organização de um sistema de software, a seleção de elementos estruturais e suas interfaces, juntamente com o comportamento especificado nas colaborações entre estes elementos, a composição destes elementos em subsistemas progressivamente maiores e o estilo arquitetural que guia esta organização. (The Rational Unified Process: An Introduction)(IBM, apud Nhimi, 2016) Desta forma e possível compreender que a arquitetura e um dos princípios fundamentais para a materialização de um projeto. Além disso dentro da arquitetura da solução definiremos os componentes básicos para o funcionamento deste projeto e a definição das tecnologias a serem empregadas no projeto.
 
 ![Arquitetura da Solução](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e4-proj-infra-t1-grupo-4-projeto-tickets/blob/main/docs/img/Diagrama%20de%20componentes.png)
+ 
+ Figura 12: Diagrama de Componentes (Fonte Propria)
  </ol>
 
  ## Diagrama de Classes
-
+<ol>
+ 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
 ![Diagrama de Classes](img/dc.png)
 
+Figura 13: Diagrama de Classes (Fonte Propria)
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+</ol>
 
 ## Modelo ER
-
+<ol>
+ 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
 ![Modelo ER](img/er.png)
 
+ Figura 14: Modelo ER (Fonte Propria)
+ 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+</ol>
 
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
 ![Esuqema ER](img/esquemaer.png)
+ 
+ Figura 15: Esquema Relacional (Fonte Propria)
  
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
