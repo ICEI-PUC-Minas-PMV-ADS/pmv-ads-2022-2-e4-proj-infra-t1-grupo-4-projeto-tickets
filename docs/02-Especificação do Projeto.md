@@ -2,122 +2,135 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+<ol>
+ 
+ Após a definição do problema e de nosso público alvo a definição das próximas etapas passará pelo entendimento e a compreensão das pessoas as quais são o objeto desse estudo, desta forma está sendo realizando este levantamento, a fim de definir os desejos e frustrações de pessoas reais, que nos ajudará a criar um programa que irá ao seu término ajudar seus usuários, a criar de forma dinâmica e simplificada a visualização de seus cupons. As informações coletadas dentro desse processo foram compiladas na forma de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições desse projeto, de onde daremos a partida para definir possíveis situações às quais serão solucionados ao final desse projeto.
+ </ol>
 
 ## Personas
+<ol>
+Segundo Spandin e Quincoses (2015, p.02) o estudo da persona da marca como objeto de investigação aconteceu pela motivação de entender como o perfil das marcas teve que se adaptar às novas exigências dos consumidores. Percebe-se que as marcas utilizam das personas para se tornarem humanas e tentar um contato mais direto com os públicos. Com a criação da persona da marca, ela passa a ser representada e percebida pelos públicos de forma mais espontânea e informal. (Quincoses e Spandin 2015), entender as personas de um projeto acaba por criar uma ligação da parte formal do projeto com a parte pessoal do mesmo, dando a ele uma identidade sobre a qual o trabalho indagado irá criar uma personalidade. Após a criação de nosso público alvo as personas como sendo:<br><br>
+  
+**- Ricardo Souza**, 53 anos, micro-empresário, divorciado, pai de três filhos, morador de Belo Horizonte- MG, realiza compras online e possui cupons de desconto e diversas empreasas de diversos ramos necessita de atualmente  de um controle melhor para seus descontos, pois muitas das vezes deixa o prazo espirar e acaba perdendo oportunidades.<br>
+**- Beatriz Menezes**, 40 anos, professora universitária, casada, dois filhos, moradora de Nova Lima - Mg, na corretia do dia a dia, não tem tempo para cadastrar seus descontos o que muitas perca muitos dos memos necessita de uma forma de automatização desses cupons.<br>
+**- Ângela Miranda**, 20 anos, estudante de medicina, aux. Administrativa em uma empresa de radioterapia, moradora do Rio de Janeiro- RJ, solteira, distraida com a vida proficional e universitaria  realiza divessas compras em apps de alimentação e de roupas. Necessita de uma forma mais dinamica de visualizar seus descontos, e de oportunidades futuras de desconto.<br>
+**- Marco Nascimento**, 35 anos, casado, pai de um filho, residente em Belo Horizonte. Trabalhando o dia dentro da area de tecnologia, possuie diversos cadastros em empresas de descontos porem acessar tais empresas e cadastros ao mesmo tempo acaba se tornando inviavel pela quantidade que ele possui, assin necessita de um local (App), aonde ele possa armazenar os dados de todos os seus descontos. 
+</ol>
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
-
+<ol>
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                |PARA ... `MOTIVO/VALOR`                  |
+|--------------------|---------------------------------------------------|-----------------------------------------|
+|Usuário do sistema  | [UC-001]- Registrar dados usuário                 | Acessar o sistema                       |
+|Usuário do sistema  | [UC-002]- Registrar cupons de descontos           | Não esquecer de fazê-las                |
+|Administrador       | [UC-003]- Alterar permissões                      | Permitir que possam administrar contas  |
+|Ricardo Souza       | [UC-004]- Permitir controle de seus cupons        | Controle de seus descontos              |
+|Beatriz Menezes     | [UC-005]- Cadastro automatizado de orfertas       | Acesso e inclusão dinamica de cupouns   |
+|Ângela Miranda      | [UC-006]- Interação enter sistemas                | Acesso a sites de descontos e promoçoes |
+|Marco Nascimento    | [UC-007]- Tabela de controle de vencimentos       | Maior controle de organização de cupons |
+|                    |                                                   |                                         |
+</ol>
 
 ## Modelagem do Processo de Negócio 
-
+<ol>
+ 
 ### Análise da Situação Atual
-
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+<ol>
+ 
+Atualmente com o crescente do uso da tecnologia temos uma dificuldade em ter o controle de nosso dia a dia, isso se dá pelo excesso de informações que nos é apresentado diariamente. Além disso o uso do papel acaba gerando grandes documentos, que na maioria dos casos cai em esquecimento ou até mesmo se perde no que foi utilizado ou não. Para tentar controla ou diminuir essa quantidade uma solução tecnologia acaba por se necessaria.
+</ol>
 
 ### Descrição Geral da Proposta
+<ol>
+ 
+Uma possível solução para o problema relato acima é a criação de uma aplicação móvel juntamente com um site interligados por uma API, que permita o cadastro de cupons, que estariam aramazendos em bancos de dados pessoais de cada usuario, com isso a facilidade de acesso seria mais viavel.
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+### Processo 1 – LOGIN
+<ol>
+ 
+Representação do processo de login dos usuários.
 
-### Processo 1 – NOME DO PROCESSO
+![Processo 1](img/bpmn-login.png)
+</ol>
+ 
+### Processo 2 – CADASTRO CUPOM
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+ <ol>
+ Representação do processo de cadastro de cupons.
 
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
+![Processo 2](img/bpmn-cdCupom.png)
+</ol>
+ </ol>
+</ol>
 
 ## Indicadores de Desempenho
+<ol>
+ 
+Principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+|Indicador|	Objetivos|	Descrição| Cálculo|	Fonte dados | Perspectiva|
+|---------|------------------------------------------------|--------------------------------------------------------------------|--------|--------|--------|
+|Cadastros de usuários|	Avaliar popularidade e aceitação do aplicativo |	 Medir a aceitação do aplicativo atráves da quantidade de cadastros de novos usuários |Percentual de novos usuários  | Tabela de cadastro de usuários  | Clientes  |
+|Cadastros de Cupons|	Avaliar aceitação do aplicativo entre os prestadores de serviços |	 Medir a aceitação do aplicativo atráves da quantidade de novas empresas prestadores de serviços  | Percentual de novos prestadores de serviço  | Tabela de cadastro de prestadores de serviços  | Clientes  |
+|Percentual de Reclamações|	Avaliar quantidades de avaliações negativas da aplicação|	 Calcular a quantidade de avaliações negativas para o aplicativo por usuários  | Percentual de feedbacks negativos pelo total  | Dados da play store  | Processos Internos  |
+|Contagem de cadastro por data|	Avaliar quantidades de cupons cadastrados pelo usuários por data |	 Medir as datas com maiores adesões ao aplicativo | Contagem por data de cadastros de usuários e desconteo | Tabela de cadastros  | Processos Internos  |
+|Contratação de Cupons|	Avaliar quantidades de cupons e tipos de serviços|	 Medir a eficiência do aplicativo | Percentual de cupons descontados | Tabela de feedback usuário  | Processos Internos  |
 
-Usar o seguinte modelo: 
+ Obs.: todas as informações para gerar os indicadores estão no diagrama de classe apresentado posteriormente. 
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
-
+</ol>
+ 
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
 ### Requisitos Funcionais
+ <ol>
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+ |ID    | Descrição do Requisito             | Prioridade |
+ |------|------------------------------------|------------|
+ |RF-001| Permitir que o usuário cadastre conta           | ALTA  | 
+ |RF-002| Permitir que o usuário Altere dados             | MÉDIA |
+ |RF-003| Permitir que o usuário realise login            | MÉDIA |
+ |RF-004| Permitir que o usuário exclua conta             | BAIXA |
+ |RF-005| Permitir cadastro de cupons                     | ALTA  |
+ |RF-006| Permitir alteração de cupons cadastrados        | MÉDIA |
+ |RF-007| Permitir exclusão de cupons                     | MÉDIA |
+ |RF-008| Emitir realatrio de cupons cadastrados no mês   | MÉDIA |
+ |RF-009| Permitir definir se o cupom foi usado ou não    | BAIXA |
+ </ol>
+ 
 ### Requisitos não Funcionais
-
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
+<ol>
+ 
+ |ID     | Descrição do Requisito  |Prioridade |
+ |-------|-------------------------|----|
+ |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+ |RNF-002| O sistema deve ter uma base web |  BAIXA |
+ |RNF-003| o sistema deverar contar ao menos uma API |  BAIXA |
+ |RNF-004| Deve processar requisições do usuário em no máximo 3s |  BAIXA |
+ |RNF-005| O sistema será construido atraves da arquiterura MVC |  BAIXA |
+ |RNF-006| O Sistema deverá ser capaz de apresentar boa usabilidade |  BAIXA |
+ |RNF-007| Será utilizado ferramentoas como visual code e React native para ciração do sistema|  BAIXA |
+</ol>
+ 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+<ol>
+ 
+|ID| Restrição                                              |
+|--|--------------------------------------------------------|
+|01 |	O projeto deverá ser entregue até o final do semestre |
+|02	| Não funciona sem rede de internet|
+|03	| Focado para Fornecedores e Empregadores de qualquer setor|
+|04	| Interação com o Fornecedor|
+|06	| Deverá ser gerenciável|
+|07	| Deverá apresentar atualizações em tempo real |
+</ol>
 
 ## Diagrama de Casos de Uso
 
