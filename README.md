@@ -6,7 +6,7 @@
 
 `Turma 01 - 2022/2`
 
-![logo1]()
+![logo1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e4-proj-infra-t1-grupo-4-projeto-tickets/blob/main/docs/img/logo2.png)
 
 
 ## Integrantes
