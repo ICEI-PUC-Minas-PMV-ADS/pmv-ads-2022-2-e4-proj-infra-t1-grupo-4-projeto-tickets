@@ -21,6 +21,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Gerenciamento do Projeto|Github||
 |Comunicação|WhatsApp e Teams||
 </ol>
+ 
+ Tabela 07: Artefatos de Projetos (Fonte Propria)
 
 
 ## Controle de Versão
@@ -33,8 +35,9 @@ foi utilizado para hospedagem do repositório.
 Para gestão do código fonte do software desenvolvido, o grupo utiliza um processo baseado no Git Flow, como mostra a Figura 2. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature.  
 
 ![Figura 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/projeto4/blob/Gabrieltviana/src/imgMetodologia/controleVers%C3%A3o.png)
-*Figura 2 – Fluxo de controle do código fonte no repositório git*
-
+ 
+Figura-08: Fluxo de controle do código fonte no repositório git* (Fonte: Propria)
+ 
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
@@ -77,12 +80,13 @@ In Progress: representa as tarefas que estão em execução naquele momento; e
 Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 Foi escolhido o quadro de kanban para o gerenciamento do projeto, com o sistema kanban é possível avaliar o progresso do trabalho da equipe, avaliar etapas posteriores, medir o tempo gasto em tarefas especificas e também promover a cooperação entre a equipe, tudo isso utilizando um sistema simples e visual. (AGUIAR, 2007). O quadro kanban do grupo no Github está disponível através da URL Doação (github.com) e é apresentado, no estado atual, na Figura 3:
 
-*Figura 3 – Tela do quadro kanban do Github criada pelo grupo*
+Figura 09: Tela do quadro kanban do Github criada pelo grupo (Fonte Propria)
 
-As tarefas são classificadas em função da natureza ou prioridade da atividade e seguem o um esquema de etiquetagem entre cores e categorias que pode ser visto pela Figura 4: 
+As tarefas são classificadas em função da natureza ou prioridade da atividade e seguem o um esquema de etiquetagem entre cores e categorias que pode ser visto pela Figura 10: 
 
 ![Figura 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/projeto4/blob/Gabrieltviana/src/imgMetodologia/labels.png)
-*Figura 4 – Tela de etiquetas do quadro kanban no Github*
+
+ Figura 10: Tela de Etiquetas do quadro Kanban (Fonte Propria)
  </ol>
  
 ### Ferramentas
@@ -95,8 +99,9 @@ As tarefas são classificadas em função da natureza ou prioridade da atividade
 - Ferramentas para criação de diagramas: brModelo, StarUML, LucidApp
 - Ferramentas de desenho de tela (_wireframing_): Adobe XD
 <br>
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão e permite depuração na máquina local. 
+ O editor de código foi escolhido porque ele possui uma integração com o sistema de versão e permite depuração na máquina local. 
 A ferramenta de comunicação utilizada foi recomendada pela Universidade e é bem completa para gestão de equipes e viabiliza chamadas de áudio, vídeo e conversa por chat. 
-Para criar diagramas utilizamos as ferramentas mencionadas porque cada uma delas capta melhor algumas das necessidades da nossa solução. 
+ Para criar diagramas utilizamos as ferramentas mencionadas porque cada uma delas capta melhor algumas das necessidades da nossa solução. 
 Por fim, a ferramenta escolhida para o desenvolvimento dos wireframes e interface de usuário foi ecolhida por permitir a edição colaborativa, além de ter funcionalidades voltadas especificamente para a natureza deste trabalho.
+ 
  </ol></ol></ol>
