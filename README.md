@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# Desenvolvimento de Aplicação Distribuída
 
-`CURSO`
+`Analise e Desenvolvimetno de Sistemas`
 
-`DISCIPLINA`
+`Eixo 4 - Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-`SEMESTRE`
+`Turma 01 - 2022/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+![logo1]()
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Diego Valdesi Miranda
+* Emerson Rodrigues Gonçalves
+* Gabriel Costa de Cerqueira
+* Gabriel Teixeira Viana
+* Lucas Lima Leão
+* Maykell Alvim de França 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Felipe Augusto Lara
+
 
 ## Instruções de utilização
 
