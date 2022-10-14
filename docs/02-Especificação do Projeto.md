@@ -223,6 +223,10 @@ Figura-07: Orçamento do Projeto (Fonte: Propria)
 </ol>
 </ol>
 
+## Layout das tecnologias utilizadas
+
+![image](https://user-images.githubusercontent.com/82729897/195932977-cad5801c-a4d1-46f6-bf99-b9616aa038b2.png)
+
 ## API
 
 Documentação das rotas (como são criadas e o que retornam)
