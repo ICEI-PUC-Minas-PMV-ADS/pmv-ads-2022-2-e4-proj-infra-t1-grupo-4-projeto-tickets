@@ -47,42 +47,6 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
 
-## Modelo Físico
-<ol>
-
-Com base nos esquemas relaciona e moderlo ER, foi desenvolvido, as tabelas basicas de nosso bancos de dados: 
- 
-create database TICKETS <br>
-use TICKETS <br>
-
-create table usuario( <br>
-idUsusario integer identity, <br>
-nome varchar(55) not null, <br>
-email varchar(55) not null, <br>
-senha varchar(55) not null, <br>
-Primary key(idUsuario) <br>
-Foreign Key(idCupom) <br>
-);
-
-create table Cupom( <br>
-idCupom integer identity, <br>
-nomeLojaCupom (55) not null, <br>
-idCupomData. datetime, not null, <br>
-valorCupom float(15) not null, <br>
-tipoCupom varchar(50) not null, <br>
-dataVencimentoCupom datetime not null, <br>
-Primary key(idCupom), <br>
-);
-
-create table Relatorio( <br>
-idRelatorio integer identity, <br>
-tipoRelatorio varchar(55) not null, <br>
-dadosRelatorioQuant varchar(55) not null, <br>
-dadosRelatorioQuali varchar(55) not null, <br>
-Primary key(idRelatorio) <br>
-);
-</ol>
-
 ## Tecnologias Utilizadas
 
 <ol>
