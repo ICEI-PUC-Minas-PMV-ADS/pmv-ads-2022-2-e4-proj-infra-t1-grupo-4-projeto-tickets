@@ -228,9 +228,55 @@ Figura-07: Orçamento do Projeto (Fonte: Propria)
 ![image](https://user-images.githubusercontent.com/82729897/195932977-cad5801c-a4d1-46f6-bf99-b9616aa038b2.png)
 
 ## API
+<ol>
+ 
+A APi criada foi desenvolvida no intuito de interligar um sistema mobile a um web, desta maneira ao se solicitar dados como nome, sexo etc.., teremos como respostas os dados armazanados no banco de dados referente a essa solicitação como descrito no codigo a baix:  
 
-Documentação das rotas (como são criadas e o que retornam)
+EX:
+namespace HttpUsuarioSample
+{
+     public class Product
+     {
+          public string Id { get; set; }
+          public string Name { get; set; }
+          public decimal Price { get; set; }
+          public string Category { get; set; }
+    }
 
+ </ol>
+ 
 ## Banco de Dados
-
-Documentação do banco
+<ol>
+ 
+A criação dos documentos (tabelas) via Mongo BD se deu da seguinte forma:
+	Criação dos documentos (tabelas)  no MongoDB
+	
+ Criando BD (coleção)
+ 
+ - Use ('on-cupom')   
+	Criando linhas (documentos)
+ 
+	db.usuario.insertOne({
+ 		  	"id":"chave aleatoria",
+ 		   "nome":"string",
+ 	    "cpf": number,
+ 		   "e-mail": "string",
+ 		   "sexo": "bool"
+		})
+ 
+ 	db.cupom.insertOne({
+ 		 		"id":"chave aleatoria",
+ 		   "idcupom":"string",
+ 		   "tipoCupom": "string",
+ 		   "idloja": "string",
+ 		   "dataCupom": "number",
+ 		   "dataVenc":"Number"
+		})
+ 
+	db.relatorio.insertOne({
+ 		  "id":"chave aleatoria",
+ 		  "tipoRel":" ",
+ 		  "dadosRel": " " 
+ 			})
+ 
+</ol>
